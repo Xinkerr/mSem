@@ -32,7 +32,7 @@
 * see: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
 *
 * Create Date:   2020/10/14
-* Modified Date: 2020/10/14
+* Modified Date: 2020/10/18
 * Version:1.0
 * Github: https://github.com/Xinkerr
 * Mail: 634326056@qq.com
@@ -47,7 +47,7 @@
  * 
  * @param[out] : 信号量
  * 
- * @retrun：M_SEM_OK,成功; M_SEM_FAIL, 出错
+ * @return：M_SEM_OK,成功; M_SEM_FAIL, 出错
  */
 mSem_err_t mSem_init(mSem_t* sem)
 {
@@ -65,7 +65,7 @@ mSem_err_t mSem_init(mSem_t* sem)
  * 
  * @param[out] : 信号量
  * 
- * @retrun：M_SEM_OK,成功; M_SEM_FAIL, 出错
+ * @return：M_SEM_OK,成功; M_SEM_FAIL, 出错
  */
 mSem_err_t mSem_release(mSem_t* sem)
 {
@@ -92,7 +92,7 @@ mSem_err_t mSem_release(mSem_t* sem)
  * 
  * @param[out] : 信号量
  * 
- * @retrun：M_SEM_OK,成功获取信号量; M_SEM_FAIL, 信号量出错或无信号量
+ * @return：M_SEM_OK,成功获取信号量; M_SEM_FAIL, 信号量出错或无信号量
  */
 mSem_err_t mSem_take(mSem_t* sem)
 {
